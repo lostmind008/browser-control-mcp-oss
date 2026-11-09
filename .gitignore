@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.npm
+.pnp
+.pnp.js
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / temp
+*.tgz
+.eslintcache
+dist/
+build/
+tmp/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.pem

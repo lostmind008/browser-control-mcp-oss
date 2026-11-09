@@ -1,0 +1,22 @@
+{
+  "name": "browser-control",
+  "version": "3.1.0",
+  "description": "Unified CDP-based browser control MCP server for Chrome, Comet, Edge, Brave",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "start:chrome": "node server/index.js --browser chrome",
+    "start:comet": "node server/index.js --browser comet"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "ws": "^8.18.0"
+  },
+  "license": "MIT",
+  "author": "LostMind AI (https://www.lostmindai.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostmind008/browser-control-mcp-oss"
+  }
+}
